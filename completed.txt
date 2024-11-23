@@ -1,0 +1,19 @@
+login
+index
+profile
+addorder
+addproduct
+editproduct
+orders
+products
+
+Navbar
+<nav class="navbar">
+        <a href="#" class="navbar-title">OrderLynx</a>
+    <a class="nav-links" href="{{url_for('profile')}}" alt="profile">Profile</a>
+    <br>
+    <a class="nav-links"href="{{url_for('products')}}"alt="products">Products</a>
+    <br>
+    <a class="nav-links"href="{{url_for('orders')}}"alt="orders">Orders</a>
+    <br>
+     </nav>
